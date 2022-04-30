@@ -21,11 +21,13 @@ a {
   width: 250px;
   height: 100px;
   margin: 20px auto;
+  padding: 10px;
   border: solid 3px #eee;
   border-radius: 10px;
 }
 .box:hover {
   background: radial-gradient(circle at var(--x-position) var(--y-position), rgba(109, 108, 108, 0.5), rgba(68, 66, 66, 0.2));
+  text-shadow: 1px 1px #212121;
 }
 @media screen and (min-width: 400px) {
   .content {
@@ -44,5 +46,7 @@ a {
     width: 160px;
     height: 150px;
     margin: 0;
+    padding-left: 12px;
+    box-sizing: border-box;
   }
 }
