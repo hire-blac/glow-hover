@@ -27,7 +27,7 @@ a {
   transition: background 3s;
 }
 .box:hover {
-  background: radial-gradient(circle at var(--x-position) var(--y-position), rgba(109, 108, 108, 0.5), rgba(68, 66, 66, 0.2));
+  background: radial-gradient(circle at var(--x-position) var(--y-position), rgba(109, 108, 108, 0.4), rgba(68, 66, 66, 0));
   text-shadow: 1px 1px #212121;
 }
 @media screen and (min-width: 400px) {
