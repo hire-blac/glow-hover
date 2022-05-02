@@ -14,7 +14,6 @@ a {
   width: 280px;
   margin: 30px auto;
   padding: 20px;
-  border: solid 3px #eee;
   border-radius: 10px;
 }
 .box {
@@ -22,8 +21,10 @@ a {
   height: 100px;
   margin: 20px auto;
   padding: 10px;
-  border: solid 3px #eee;
+  border: solid 1px #555;
   border-radius: 10px;
+  background: transparent;
+  transition: background 3s;
 }
 .box:hover {
   background: radial-gradient(circle at var(--x-position) var(--y-position), rgba(109, 108, 108, 0.5), rgba(68, 66, 66, 0.2));
@@ -34,16 +35,17 @@ a {
     width: 600px;
     height: 400px;
     border-radius: 10px;
+    box-sizing: border-box;
   }
   .row {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 10px;
   }
 
   .box {
     display: inline-block;
-    width: 160px;
+    width: 175px;
     height: 150px;
     margin: 0;
     padding-left: 12px;
